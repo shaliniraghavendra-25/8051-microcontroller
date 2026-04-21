@@ -1,0 +1,26 @@
+1.LED interfacing with 8051
+#include<reg51.h>
+#include<stdio.h>
+#include<math.h>
+sbit led1=P2^5;
+void delay(unsigned int );  //Declaration 
+void main()
+{
+	while(1)
+	{
+		led1=1;
+		delay(400);
+		led1=0;
+		delay(400);
+	}
+}
+void delay(unsigned int  x)
+{
+	int i,j;
+	for(i=0;i<800;i++)
+	for(j=0;j<700;j+);
+
+}
+
+
+
